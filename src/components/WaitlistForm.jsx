@@ -57,10 +57,10 @@ const WaitlistForm = ({ isOpen, toggleModal }) => {
       {isOpen && (
         <Modal>
           <div className="p-4 text-center bg-gray-100">
-            <h2 className="text-xl font-semibold">
+            <h2 className="text-xl font-semibold text-black">
               {isSuccess ? "Joined Successfully!" : "Join the Waitlist"}
             </h2>
-            {!isSuccess && <p className="my-4">Enter your email to join the waitlist.</p>}
+            {!isSuccess && <p className="my-4 text-black">Enter your email to join the waitlist.</p>}
 
             {!isSuccess ? (
               <form onSubmit={handleSubmit}>
@@ -68,7 +68,7 @@ const WaitlistForm = ({ isOpen, toggleModal }) => {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="p-2 w-full mb-4 border rounded"
+                  className="p-2 w-full mb-4 border rounded text-black"
                   placeholder="Enter your email"
                   disabled={isSubmitting} // Disable input during submission
                   required
