@@ -1,12 +1,23 @@
-import appMockup from "../assets/appMockup.png"
-import PIIM from "../assets/piim.png"
+import appMockup from "../assets/appMockup.png";
+import PIIM from "../assets/piim.png";
 
 const AppMockup = () => {
-    return(
-        <section className="flex justify-center mb-20">
-      <img src={PIIM} alt="PIIM" className="z-0 absolute" />
-      <img src={appMockup} alt="App Mockup" className="mt-3 md:mt-7 z-10 h-2/4" />
-    </section>
-    )
-}
+    return (
+        <section className="relative flex justify-center items-center">
+            {/* Background Image */}
+            <img 
+                src={PIIM} 
+                alt="Background design of PIIM logo" 
+                className="absolute w-full h-full object-contain z-0" 
+            />
+            {/* App Mockup Image */}
+            <img 
+                src={appMockup} 
+                alt="Preview of the app interface on a device" 
+                className="h-3/4 max-w-full z-10 transition-transform transform hover:scale-105" 
+            />
+        </section>
+    );
+};
+
 export default AppMockup;

@@ -11,7 +11,7 @@ import Hero from "./components/Hero"
 function App() {
 
   return (
-    <div className="min-h-screen bg-gray-100 text-black px-4 md:px-16 xl:px-40 py-10">
+    <div className="min-h-screen bg-gray-100 text-black px-4 md:px-16 xl:px-40 py-10 overflow-hidden">
     <Navbar />
     <Hero />
     <AppMockup />

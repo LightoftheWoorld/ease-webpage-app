@@ -62,10 +62,10 @@ const Navbar = () => {
             <nav className="hidden md:flex space-x-6 items-center">
                 {/* <a href="#about" onClick={() => handleNavClick('about')} className="text-sm">About</a> */}
                 <a href="#features" onClick={() => handleNavClick('features')} className="text-sm">Features</a>
-                <a href="#features" onClick={() => handleNavClick('waitlist')} className="text-sm">Join Waitlist</a>
+                <a href="#card" onClick={() => handleNavClick('waitlist')} className="text-sm">Join Waitlist</a>
                 {/* <a href="#pricing" onClick={() => handleNavClick('pricing')} className="text-sm">Pricing</a> */}
                 {/* <a href="#investors" onClick={() => handleNavClick('investors')} className="text-sm">Our Investors</a> */}
-                <a href="#contact" onClick={() => handleNavClick('contact')} className="text-sm py-3 px-6 bg-black text-white rounded-lg">Contact Us</a>
+                <a href="mailto:team@easecommerce.xyz" className="text-sm py-3 px-6 bg-black text-white rounded-lg">Contact Us</a>
             </nav>
 
             <motion.nav
@@ -80,10 +80,10 @@ const Navbar = () => {
                 </button>
                 {/* <a href="#about" onClick={() => handleNavClick('about')} className="text-sm">About</a> */}
                 <a href="#features" onClick={() => handleNavClick('features')} className="text-sm">Features</a>
-                <a href="#features" onClick={() => handleNavClick('waitlist')} className="text-sm">Join Waitlist</a>
+                <a href="#card" onClick={() => handleNavClick('waitlist')} className="text-sm">Join Waitlist</a>
                 {/* <a href="#pricing" onClick={() => handleNavClick('pricing')} className="text-sm">Pricing</a> */}
                 {/* <a href="#investors" onClick={() => handleNavClick('investors')} className="text-sm">Our Investors</a> */}
-                <a href="#contact" onClick={() => handleNavClick('contact')} className="text-sm py-3 px-6 bg-black text-white rounded-lg">Contact Us</a>
+                <a href="mailto:team@easecommerce.xyz" className="text-sm py-3 px-6 bg-black text-white rounded-lg">Contact Us</a>
             </motion.nav>
         </header>
     );
