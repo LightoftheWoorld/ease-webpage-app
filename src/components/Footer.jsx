@@ -12,7 +12,7 @@ const data = [
     ]
   },
   { header: "CONTACT", items: [
-    { name: "team@easecommerce.xyz", link: "mailto:team@easecommerce.xyz" }
+    { name: "team@easeseller.xyz", link: "mailto:team@easeseller.xyz" }
   ] }
 ];
 
