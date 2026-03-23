@@ -18,7 +18,7 @@ const Hero = () => {
       </h1>
       <p className="text-gray-600 mb-8">Using technology to enhance commerce across all distribution channels.</p>
       <div className="flex space-x-4 justify-center">
-        <a href="https://expo.dev/accounts/st33v3/projects/easefrontend/builds/b2c945e4-8f32-4efd-b654-905b597e4e25" target="_blank" rel="noopener noreferrer" className="border border-black text-black px-4 py-3 rounded-lg items-center flex flex-row gap-3"> <FaGooglePlay size={20} />Android</a>
+        <a href="https://expo.dev/accounts/st33v3/projects/easefrontend/builds/5ff65c66-cf05-4dab-871d-007c8f33fb4b" target="_blank" rel="noopener noreferrer" className="border border-black text-black px-4 py-3 rounded-lg items-center flex flex-row gap-3"> <FaGooglePlay size={20} />Android</a>
         <a href="https://apps.apple.com/ng/app/ease-seller/id6563148567" target="_blank" rel="noopener noreferrer" className="text-white border bg-black px-4 py-3 rounded-lg items-center flex flex-row gap-3"><FaApple size={20} />App Store</a>
         {/* <button className="text-white border bg-black px-4 py-3 rounded-lg items-center flex flex-row gap-3" onClick={toggleModal}>Join Waitlist</button> */}
       </div>
